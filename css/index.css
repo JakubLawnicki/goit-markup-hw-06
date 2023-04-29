@@ -212,6 +212,12 @@ body {
   line-height: 1.1;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+  outline: 0;
+}
+
+.comment:hover,
+.comment:focus {
+  border-color: var(--hover-color);
 }
 
 .contact-links-footer {
@@ -354,6 +360,17 @@ div.social-media-foot ul {
   border-radius: 4px;
   margin-bottom: 10px;
   padding: 11px 0 11px 42px;
+  outline: 0;
+}
+
+.form-input:hover,
+.form-input:focus {
+  border-color: var(--hover-color);
+}
+
+.form-input:hover + svg,
+.form-input:focus + svg {
+  fill: var(--hover-color);
 }
 
 .form-label {
@@ -362,20 +379,19 @@ div.social-media-foot ul {
   letter-spacing: 0.01em;
   color: #757575;
   padding-bottom: 4px;
-  position: relative;
 }
 
 .form-list {
   display: flex;
   flex-direction: column;
   height: 466px;
+  position: relative;
 }
 
-.form-list label.form-label svg {
+.form-list svg {
   display: block;
-  position: absolute;
-  top: 29px;
-  left: 12px;
+  fill: #212121;
+  outline: 0;
 }
 
 .head {
@@ -424,6 +440,24 @@ div.social-media-foot ul {
   justify-content: center;
   text-align: center;
   align-items: center;
+}
+
+.icon-mail {
+  position: absolute;
+  top: 170px;
+  left: 12px;
+}
+
+.icon-name {
+  position: absolute;
+  top: 30px;
+  left: 12px;
+}
+
+.icon-phone {
+  position: absolute;
+  top: 101px;
+  left: 12px;
 }
 
 img {
