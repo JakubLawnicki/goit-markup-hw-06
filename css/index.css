@@ -176,6 +176,11 @@ button:hover {
   margin-right: 9px;
 }
 
+.checkbox-label a {
+  color: var(--hover-color);
+  cursor: pointer;
+}
+
 .city-street {
   font-size: 14px;
   line-height: 1.71;
