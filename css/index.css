@@ -683,6 +683,11 @@ img {
   width: 358px;
 }
 
+.newsletter input:hover,
+.newsletter input:focus {
+  border-color: var(--hover-color);
+}
+
 .newsletter p {
   font-weight: 700;
   line-height: 1.1;
